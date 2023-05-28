@@ -1,0 +1,64 @@
+--env deactivate: conda deactivate
+--initialize
+     
+git init
+
+
+--add file/folder
+  
+	--add folder app
+    
+		git add app
+  
+  
+                --add all
+     
+                   git add .
+     
+  
+        --add file main.c
+     git add main.c
+
+
+
+--commit
+  git commit -m "First commit"
+  
+
+
+--Add new repository on github: https://github.com/breeze428lv/HbYljRenameable
+
+
+
+--Create link to remote repository: 
+   git remote add origin https://github.com/breeze428lv/HbYljRenameable.git
+
+
+--set url: 
+   git remote set-url origin https://github.com/breeze428lv/HbYljRenameable.git
+
+
+--check remote repository: 
+   git remote -v
+
+
+
+
+--Update remote repository
+    
+   git push origin master
+     
+
+NOTE: 
+       
+user:      breeze428lv
+       
+password:  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
+     
+       
+
+In case password is invalid, try a new one: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+--Download remote repository
+    git pull origin master
+    
+    

@@ -1,0 +1,50 @@
+T13CC 000:153.434   SEGGER J-Link V6.54c Log File
+T13CC 000:153.614   DLL Compiled: Nov  7 2019 17:01:02
+T13CC 000:153.625   Logging started @ 2019-11-18 09:05
+T13CC 000:153.638 JLINK_SetWarnOutHandler(...)
+T13CC 000:153.651 - 0.018ms
+T13CC 000:153.671 JLINK_OpenEx(...)
+T13CC 000:155.087   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T13CC 000:157.842   Hardware: V7.00
+T13CC 000:157.871   S/N: 20090928
+T13CC 000:157.885   OEM: SEGGER
+T13CC 000:157.899   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDBFull
+T13CC 000:159.275   TELNET listener socket opened on port 19021
+T13CC 000:176.673   WEBSRV Starting webserver
+T13CC 000:176.921   WEBSRV Webserver running on local port 19080
+T13CC 000:176.941 - 23.274ms returns "O.K."
+T13CC 000:176.989 JLINK_SetErrorOutHandler(...)
+T13CC 000:177.000 - 0.015ms
+T13CC 000:177.036 JLINK_ExecCommand("ProjectFile = "D:\Embedded\Projects\Ó¢½ÝË¼\ºãÑ¹¹©Ë®\WaterSystemTouchScreen\USER\JLinkSettings.ini"", ...). 
+T13CC 000:181.217   Ref file found at: D:\Keil_v4\ARM\Segger\JLinkDevices.ref
+T13CC 000:181.709   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml
+T13CC 000:183.936   C:\Program Files (x86)\SEGGER\JLink\JLinkDevices.xml evaluated successfully.
+T13CC 000:568.513   Device "CORTEX-M3" selected.
+T13CC 000:569.412 - 392.399ms returns 0x00
+T13CC 000:572.721 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T13CC 000:572.760 - 0.011ms returns 0x01
+T13CC 000:572.776 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T13CC 000:573.581 - 0.829ms returns 0x00
+T13CC 000:573.636 JLINK_SetSpeed(2000)
+T13CC 000:573.956 - 0.342ms
+T13CC 000:573.987 JLINK_GetHardwareVersion()
+T13CC 000:574.002 - 0.020ms returns 0x11170
+T13CC 000:574.023 JLINK_GetDLLVersion()  returns 65403
+T13CC 000:574.042 JLINK_GetFirmwareString(...)
+T13CC 000:574.052 - 0.014ms
+T13CC 000:584.813 JLINK_GetDLLVersion()  returns 65403
+T13CC 000:584.855 JLINK_GetCompileDateTime()
+T13CC 000:584.868 - 0.019ms
+T13CC 000:588.065 JLINK_GetFirmwareString(...)
+T13CC 000:588.101 - 0.043ms
+T13CC 000:591.696 JLINK_GetHardwareVersion()
+T13CC 000:591.748 - 0.060ms returns 0x11170
+T13CC 000:604.069 JLINK_Reset()
+T13CC 001:194.852 JLINK_JTAG_StoreRaw(..., 0x108 Bits)
+T13CC 001:194.888 - 0.041ms returns 0x00
+T13CC 001:194.901 JLINK_JTAG_GetU32(BitPos = 227)
+T13CC 001:196.116 - 1.238ms returns 0xFFFFFFFF
+T13CC 002:746.641 JLINK_Close()
+T13CC 002:756.268 - 9.656ms
+T13CC 002:756.303   
+T13CC 002:756.313   Closed
